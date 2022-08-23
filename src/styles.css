@@ -3,7 +3,8 @@
   flex-wrap: wrap;
 }
 .divCreado {
+  margin: 2%;
   width: 20vw;
   height: 20vh;
-  background-color: blue;
+  background-color: rgb(255, 94, 0);
 }
