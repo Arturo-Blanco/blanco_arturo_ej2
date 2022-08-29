@@ -4,6 +4,7 @@ let numeroDivs = document.querySelector(".inputNumber");
 let btnCrear = document.querySelector(".btnCrear");
 btnCrear.addEventListener("click", () => {
   let divCreado = numeroDivs.value;
+  document.querySelector('.container').innerHTML=''; /* Se agrega innerHTML para limpiar contenedor luego de cada nuevo valor */
   crearDivs(divCreado);
 });
 

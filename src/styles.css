@@ -4,7 +4,7 @@
 }
 .divCreado {
   margin: 2%;
-  width: 20vw;
-  height: 20vh;
+  width: 10rem; /* se modifica escalabilidad para que se adapten los objetos al espacio que disponen */
+  height: 10rem; 
   background-color: rgb(255, 94, 0);
 }
